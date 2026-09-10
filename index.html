@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, GitHub</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #17211b;
+        background: #f3efe5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        background:
+          radial-gradient(circle at 15% 20%, #d9e9cf 0 12%, transparent 13%),
+          radial-gradient(circle at 85% 80%, #f1c7a8 0 14%, transparent 15%),
+          #f3efe5;
+      }
+
+      main {
+        width: min(100%, 680px);
+        padding: clamp(2rem, 7vw, 5rem);
+        border: 1px solid #b8b9a6;
+        background: rgba(255, 252, 244, 0.9);
+        box-shadow: 12px 12px 0 #d1d7bd;
+      }
+
+      .eyebrow {
+        margin: 0 0 1rem;
+        color: #b65032;
+        font: 700 0.8rem/1.2 monospace;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 8ch;
+        margin: 0;
+        font-size: clamp(3.5rem, 12vw, 7rem);
+        line-height: 0.88;
+        letter-spacing: -0.04em;
+      }
+
+      p {
+        max-width: 34rem;
+        margin: 2rem 0 0;
+        font-size: clamp(1.1rem, 2vw, 1.35rem);
+        line-height: 1.55;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.8rem 1rem;
+        color: #fffdf6;
+        background: #17211b;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus-visible {
+        background: #b65032;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">My first repository</p>
+      <h1>Hello, GitHub.</h1>
+      <p>
+        I made this page, changed the code, and shared it from a GitHub repository.
+        Now it is your turn to make it yours.
+      </p>
+      <a href="https://github.com" target="_blank" rel="noreferrer">Visit GitHub</a>
+    </main>
+  </body>
+</html>
